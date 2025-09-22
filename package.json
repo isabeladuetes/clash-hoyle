@@ -1,14 +1,16 @@
 {
   "name": "clash-hoyle",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Isabela Duetes",
+  "license": "MIT",
+  "description": "API revisão clash royale",
   "dependencies": {
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
